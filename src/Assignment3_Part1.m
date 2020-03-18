@@ -53,6 +53,7 @@ end
 figure(2);
 subplot(2,1,1);
 temperature_plot = animatedline;
+temperature_plot.Color = 'blue';
 title('Temperature');
 xlabel('Time');
 ylabel('Temperature (K)');
@@ -61,6 +62,7 @@ grid on;
 figure(2);
 subplot(2,1,2);
 current_plot = animatedline;
+current_plot.Color = 'red';
 title('Current Density');
 xlabel('Time');
 ylabel('Current density (A/m)');
